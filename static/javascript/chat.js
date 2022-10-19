@@ -39,6 +39,7 @@ firstBotMessage();
 
 function getHardResponce(userText){
     let botResponse = getBotResponce(userText);
+    console.log(userText);
     let botHtml = '<p class="botText"><span>'+botResponse+'</span></p>';
     $("#chatbox").append(botHtml);
 
